@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff7e1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* style for the first section */
+.heading {
+  margin-block: 48px;
+}
+
+#heading1 {
+  color: #482307;
+  font-size: 36px;
+}
+
+#subheading {
+  color: #a1724e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for the button container div and the buttons */
+.btnContainer {
+  background-color: #f8eedb;
+  width: 30rem;
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#btns {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#btn1 {
+  /* applying flex to the icon and the p tag to get them side by side and in the center of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 56px;
+  background-color: #fbf5eb;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+
+  /* box-shadow = horizontal vertical blur color */
+  box-shadow: 0px 4px 6px #d1c0ab;
+}
+
+#btn2 {
+  /* applying flex to the icon and the p tag to get them side by side and in the center of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 56px;
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  box-shadow: 0px 4px 6px #d1c0ab;
+}
+
+i {
+  margin-right: 30px;
+  font-size: 25px;
+  color: #5c340f;
+}
+
+/* Style for the section below buttons */
+.links {
+  color: #a1724e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+a {
+  color: #a1724e;
+}
+
+/* style for the last section */
+.Features {
+  color: #482307;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+#childDiv {
+  display: flex;
+  gap: 10px;
+}
+
+#featuresChild {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
